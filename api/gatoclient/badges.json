@@ -1,0 +1,35 @@
+{
+  "user0": {
+    "accountName": "creepycats",
+    "hasPremiumName": true,
+    "premiumName": "Gato",
+    "clan": "[.MAP]",
+    "badge": "gatoDev"
+  },
+  "user1": {
+    "accountName": "Strokeforceguy",
+    "hasPremiumName": false,
+    "clan": "[Gaty]",
+    "badge": "gatoQT"
+  },
+  "user2": {
+    "accountName": "Photek24",
+    "hasPremiumName": true,
+    "premiumName": "NightShade",
+    "clan": "[DEV]",
+    "badge": "gatoKDev"
+  },
+  "user3": {
+    "accountName": "gstark55",
+    "hasPremiumName": true,
+    "premiumName": "gstark",
+    "clan": "[PAKF]",
+    "badge": "gatoCC"
+  },
+  "user4": {
+    "accountName": "ZUQ_12",
+    "hasPremiumName": false,
+    "clan": "[Flaw]",
+    "badge": "gatoWinner"
+  }
+}
