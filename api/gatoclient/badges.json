@@ -1,42 +1,44 @@
 {
-  "user0": {
-    "accountName": "creepycats",
-    "hasPremiumName": true,
-    "premiumName": "Gato",
-    "clan": "[.MAP]",
-    "badge": "gatoDeveloper"
-  },
-  "user1": {
-    "accountName": "Strokeforceguy",
-    "hasPremiumName": false,
-    "clan": "[Gaty]",
-    "badge": "gatoQT"
-  },
-  "user2": {
-    "accountName": "Photek24",
-    "hasPremiumName": true,
-    "premiumName": "NightShade",
-    "clan": "[DEV]",
-    "badge": "gatoKDev"
-  },
-  "user3": {
-    "accountName": "gstark55",
-    "hasPremiumName": true,
-    "premiumName": "gstark",
-    "clan": "[PAKF]",
-    "badge": "gatoCC"
-  },
-  "user4": {
-    "accountName": "ZUQ_12",
-    "hasPremiumName": false,
-    "clan": "[Flaw]",
-    "badge": "gatoWinner"
-  }
-  "user5": {
-    "accountName": "Rilican",
-    "hasPremiumName": true,
-    "premiumName": "CeresFaunaFan",
-    "clan": "[初戀]",
-    "badge": "gatoCC"
+  "users":{
+    "user0": {
+      "accountName": "creepycats",
+      "hasPremiumName": true,
+      "premiumName": "Gato",
+      "clan": "[.MAP]",
+      "badge": "gatoDeveloper"
+    },
+    "user1": {
+      "accountName": "Strokeforceguy",
+      "hasPremiumName": false,
+      "clan": "[Gaty]",
+      "badge": "gatoQT"
+    },
+    "user2": {
+      "accountName": "Photek24",
+      "hasPremiumName": true,
+      "premiumName": "NightShade",
+      "clan": "[DEV]",
+      "badge": "gatoKDev"
+    },
+    "user3": {
+      "accountName": "gstark55",
+      "hasPremiumName": true,
+      "premiumName": "gstark",
+      "clan": "[PAKF]",
+      "badge": "gatoCC"
+    },
+    "user4": {
+      "accountName": "ZUQ_12",
+      "hasPremiumName": false,
+      "clan": "[Flaw]",
+      "badge": "gatoWinner"
+    }
+    "user5": {
+      "accountName": "Rilican",
+      "hasPremiumName": true,
+      "premiumName": "CeresFaunaFan",
+      "clan": "[初戀]",
+      "badge": "gatoCC"
+    }
   }
 }
