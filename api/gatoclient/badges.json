@@ -1,5 +1,4 @@
 {
-  "users":{
     "user0": {
       "accountName": "creepycats",
       "hasPremiumName": true,
@@ -32,7 +31,7 @@
       "hasPremiumName": false,
       "clan": "[Flaw]",
       "badge": "gatoWinner"
-    }
+    },
     "user5": {
       "accountName": "Rilican",
       "hasPremiumName": true,
@@ -40,5 +39,4 @@
       "clan": "[初戀]",
       "badge": "gatoCC"
     }
-  }
 }
