@@ -1,10 +1,12 @@
 {
-  "ffa": 0, 
-  "tdm": 1, 
-  "point": 2, 
-  "ctf": 3, 
-  "kc": 19,
-  "kranked": 27,
-  "gungame":10,
-  "sharpshooter":21
+  "gamemodes": {
+    "ffa": 0, 
+    "tdm": 1, 
+    "point": 2, 
+    "ctf": 3, 
+    "kc": 19,
+    "kranked": 27,
+    "gungame":10,
+    "sharpshooter":21
+  }
 }
