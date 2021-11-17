@@ -61,6 +61,14 @@
 	font-family: BaiJamjuree-Bold;
 	color:white!important;
 }
+.backgroundSettings h3 {  
+	font-family: BaiJamjuree-Bold!important;
+	color:white!important;
+}
+.backgroundSettings span {  
+	font-family: BaiJamjuree-Bold!important;
+	color:white!important;
+}
 .backgroundSettings p {  
     overflow: auto;
 	color:#d4d4d4;
