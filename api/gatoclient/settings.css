@@ -8,11 +8,6 @@
   src: url(https://creepycats.github.io/api/gatoclient/fonts/BaiJamjuree-Bold.ttf);
   font-weight: normal;
 }
-.backgroundSettings body {
- font-family: BaiJamjuree-Light!important;
- color:white!important;
- padding: 0px 0px 0px 0px;
-}
 .backgroundSettings{
  background-image: url("https://cdn.discordapp.com/attachments/901905234861883432/910340407949398046/background.jpg");
  background-size: cover;
@@ -27,12 +22,12 @@
     margin: 0px 20px 0px 0px;  
     overflow: auto;
 	color:#f1f1f1;
-	font-size: 24px;
+	font-size: 48px;
 	border:solid #fff;
 	border-radius:4px;
 	padding:10px 30px 0px 30px;
 	background-color: rgba(0,0,0,0.2);
-	width:800px;
+	width:100%;
     border-width: 0px 2px 0px 2px;
 }
 .backgroundSettings .titleImage {
@@ -40,6 +35,12 @@
 }
 .backgroundSettings .titleImage img {
     display: block
+}
+.backgroundSettings * {
+    font-size:30px;    
+}
+.backgroundSettings {
+    padding:20px 10.5% 20px 5.5%;
 }
 .backgroundSettings .title {
     margin-left: 80px; 
@@ -54,8 +55,9 @@
 	border-width: 0px 2px 0px 2px;
 	border-radius:4px;
 	padding:10px 30px 10px 30px;
+	font-size:42px;
 	background-color: rgba(0,0,0,0.2);
-	width:800px;
+	width:100%;
 	margin-top:8px;
 	margin-bottom:8px;
 	font-family: BaiJamjuree-Bold;
@@ -64,6 +66,7 @@
 .backgroundSettings h3 {  
 	font-family: BaiJamjuree-Bold!important;
 	color:white!important;
+	font-size:46px;
 }
 .backgroundSettings span {  
 	font-family: BaiJamjuree-Light!important;
@@ -77,7 +80,7 @@
 	border-radius:4px;
 	padding:10px 30px 10px 30px;
 	background-color: rgba(0,0,0,0.2);
-	width:800px;
+	width:100%;
 	margin-top:2px;
 	margin-bottom:2px;
 	font-family: BaiJamjuree-Light!important;
@@ -98,8 +101,8 @@
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	width: 35px;
-	height: 15px;
+	width: 50px;
+	height: 25px;
 	background: #ddd;
 	border-radius: 3em;
 	position: relative;
@@ -114,28 +117,28 @@
 		background: #0ebeff;
 	}
 .backgroundSettings input[type="checkbox"].switch_1:hover {
-  box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  box-shadow: 0 0 3px 6px rgba(59, 153, 252, .7);
+  box-shadow: 0 0 0 6px -moz-mac-focusring;
 }
 
 	input[type="checkbox"].switch_1:after {
-		position: absolute;
-		content: "";
-		width: 15px;
-		height: 15px;
-		border-radius: 50%;
-		background: #fff;
-		-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
-		box-shadow: 0 0 .25em rgba(0,0,0,.3);
-		-webkit-transform: scale(.7);
-		transform: scale(.7);
-		left: 0;
-		-webkit-transition: all .2s ease-in-out;
-		transition: all .2s ease-in-out;
+		position: absolute!important;
+		content: ""!important;
+		width: 25px!important;
+		height: 25px!important;
+		border-radius: 50%!important;
+		background: #fff!important;
+		-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3)!important;
+		box-shadow: 0 0 .25em rgba(0,0,0,.3)!important;
+		-webkit-transform: scale(.7)!important;
+		transform: scale(.7)!important;
+		left: 0!important;
+		-webkit-transition: all .2s ease-in-out!important;
+		transition: all .2s ease-in-out!important;
 	}
 
 	.backgroundSettings input[type="checkbox"].switch_1:checked:after {
-		left: calc(100% - 15px);
+		left: calc(100% - 25px)!important;
 	}
 	
 /* Inputs */
@@ -147,8 +150,9 @@
 	color:white;
 	background-color: rgba(255, 255, 255, 0.2);
 	border: solid 1px white;
-	width: 100px;
+	width: 200px;
 	transition: all 0.3s;
+	font-size:1rem;
 }
 
 	.backgroundSettings .form__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -168,11 +172,12 @@
 	border-radius: 8px;
 	cursor: pointer;
 	font-family: BaiJamjuree-Bold;
+	font-size:30px!important;
 }
 
 .backgroundSettings .style {
-	height: 50px;
-	width: 150px;
+	height: 100px;
+	width: 300px;
 	color: white;
 	z-index: 1;
 	transition: 1.2s;
@@ -219,6 +224,7 @@
 .backgroundSettings .select-dropdown select option {
   color: white;
   background: rgb(120,116,172);
+  font-size:1rem;
 }
 
 .backgroundSettings .select-dropdown:hover {
