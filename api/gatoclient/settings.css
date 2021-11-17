@@ -1,20 +1,23 @@
 @font-face {
   font-family: BaiJamjuree-Light;
-  src: url(../fonts/BaiJamjuree-Light.ttf);
+  src: url(https://creepycats.github.io/api/gatoclient/fonts/BaiJamjuree-Light.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: BaiJamjuree-Bold;
-  src: url(../fonts/BaiJamjuree-Bold.ttf);
+  src: url(https://creepycats.github.io/api/gatoclient/fonts/BaiJamjuree-Bold.ttf);
   font-weight: normal;
 }
 body {
+ font-family: BaiJamjuree-Light!important;
+ color:white!important;
+ padding: 0px 0px 0px 0px;
+}
+.background{
  background-image: url("../images/background.jpg");
  background-size: cover;
  background-repeat: no-repeat;
  background-color: #cccccc;
- font-family: BaiJamjuree-Light;
- color:white;
  padding: 0px 0px 0px 0px;
 }
 .titleHolder {
