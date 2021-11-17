@@ -24,7 +24,7 @@
 	color:#f1f1f1;
 	font-size: 48px;
 	border:solid #fff;
-	border-radius:4px;
+	border-radius:8px;
 	padding:10px 30px 0px 30px;
 	background-color: rgba(0,0,0,0.2);
 	width:100%;
@@ -53,7 +53,7 @@
 	color:#f1f1f1;
 	border:solid #fff;
 	border-width: 0px 2px 0px 2px;
-	border-radius:4px;
+	border-radius:8;
 	padding:10px 30px 10px 30px;
 	font-size:42px;
 	background-color: rgba(0,0,0,0.2);
@@ -77,7 +77,7 @@
 	color:#d4d4d4;
 	border:solid #b5b5b5;
 	border-width: 0px 2px 0px 2px;
-	border-radius:4px;
+	border-radius:8x;
 	padding:10px 30px 10px 30px;
 	background-color: rgba(0,0,0,0.2);
 	width:100%;
@@ -109,6 +109,7 @@
 	top:4px;
 	cursor: pointer;
 	outline: none;
+	float:right;
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
@@ -146,13 +147,14 @@
 	color: #333;
 	margin: 0 auto;
 	padding: 5px 5px;
-	border-radius: 5px;
+	border-radius: 8x;
 	color:white;
 	background-color: rgba(255, 255, 255, 0.2);
 	border: solid 1px white;
 	width: 200px;
 	transition: all 0.3s;
 	font-size:1rem;
+	float:right;
 }
 
 	.backgroundSettings .form__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -200,14 +202,14 @@
   padding: 0;
   position: relative;
   box-sizing: border-box;
-	
 }
 .backgroundSettings .select-dropdown {
   position: relative;
   background: rgba(170,170,170,0.4);
   border: 1px white solid;
   padding: 2px 2px 2px 2px;
-  border-radius: 4px;
+  border-radius: 8px;
+  float:right;
 }
 .backgroundSettings .select-dropdown select {
   font-size: 1rem;
