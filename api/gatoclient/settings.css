@@ -8,19 +8,19 @@
   src: url(https://creepycats.github.io/api/gatoclient/fonts/BaiJamjuree-Bold.ttf);
   font-weight: normal;
 }
-body {
+.backgroundSettings body {
  font-family: BaiJamjuree-Light!important;
  color:white!important;
  padding: 0px 0px 0px 0px;
 }
-.background{
+.backgroundSettings{
  background-image: url("../images/background.jpg");
  background-size: cover;
  background-repeat: no-repeat;
  background-color: #cccccc;
  padding: 0px 0px 0px 0px;
 }
-.titleHolder {
+.backgroundSettings .titleHolder {
     margin: 0px 20px 0px 0px;  
     overflow: auto;
 	color:#f1f1f1;
@@ -32,19 +32,19 @@ body {
 	width:400px;
     border-width: 0px 2px 0px 2px;
 }
-.titleImage {
+.backgroundSettings .titleImage {
     float: left
 }
-.titleImage img {
+.backgroundSettings .titleImage img {
     display: block
 }
-.title {
+.backgroundSettings .title {
     margin-left: 80px; 
 	font-family: BaiJamjuree-Bold;
 	position:relative;
 	top:-5px;
 }
-h2 {  
+.backgroundSettings h2 {  
     overflow: auto;
 	color:#f1f1f1;
 	border:solid #fff;
@@ -57,7 +57,7 @@ h2 {
 	margin-bottom:8px;
 	font-family: BaiJamjuree-Bold;
 }
-p {  
+.backgroundSettings p {  
     overflow: auto;
 	color:#d4d4d4;
 	border:solid #b5b5b5;
@@ -69,17 +69,17 @@ p {
 	margin-top:2px;
 	margin-bottom:2px;
 }
-p:nth-child(even) {  
+.backgroundSettings p:nth-child(even) {  
 	padding:10px 30px 10px 30px;
 	background-color: rgba(92, 92, 92,0.4);
 }
-p:nth-child(odd) {  
+.backgroundSettings p:nth-child(odd) {  
 	padding:10px 30px 10px 30px;
 	background-color: rgba(48, 48, 48,0.3);
 }
 
 /* Switches */
-input[type="checkbox"].switch_1 {
+.backgroundSettings input[type="checkbox"].switch_1 {
 	font-size: 30px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -96,10 +96,10 @@ input[type="checkbox"].switch_1 {
 	transition: all .2s ease-in-out;
 }
 
-	input[type="checkbox"].switch_1:checked {
+	.backgroundSettings input[type="checkbox"].switch_1:checked {
 		background: #0ebeff;
 	}
-input[type="checkbox"].switch_1:hover {
+.backgroundSettings input[type="checkbox"].switch_1:hover {
   box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
 }
@@ -120,12 +120,12 @@ input[type="checkbox"].switch_1:hover {
 		transition: all .2s ease-in-out;
 	}
 
-	input[type="checkbox"].switch_1:checked:after {
+	.backgroundSettings input[type="checkbox"].switch_1:checked:after {
 		left: calc(100% - 15px);
 	}
 	
 /* Inputs */
-.form__input {
+.backgroundSettings .form__input {
 	color: #333;
 	margin: 0 auto;
 	padding: 5px 5px;
@@ -137,16 +137,16 @@ input[type="checkbox"].switch_1:hover {
 	transition: all 0.3s;
 }
 
-	.form__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	.backgroundSettings .form__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 		color: rgba(255, 255, 255, 0.5);
 	}
-.form__input:hover { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.backgroundSettings .form__input:hover { /* Chrome, Firefox, Opera, Safari 10.1+ */
 		box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
 }
 
 /* Save Button */
-.button {
+.backgroundSettings .button {
 	background-color: #ddd;
 	display: flex;
 	justify-content: center;
@@ -156,7 +156,7 @@ input[type="checkbox"].switch_1:hover {
 	font-family: BaiJamjuree-Bold;
 }
 
-.style {
+.backgroundSettings .style {
 	height: 50px;
 	width: 150px;
 	color: white;
@@ -165,42 +165,32 @@ input[type="checkbox"].switch_1:hover {
 	background: linear-gradient(to right bottom, #4776E6, #8E54E9);
 }
 
-	.style:hover {
+	.backgroundSettings .style:hover {
 		transform: scale(90%);
 		transition: 1.2s;
 	}
 
-	.style:active {
+	.backgroundSettings .style:active {
 		opacity: 0.5;
 		transition: 0.2s;
 	}
 
-/* Hide Scrollbar */
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-
 /* Dropdown CSS */
-.select-dropdown * {
+.backgroundSettings .select-dropdown * {
   margin: 0;
   padding: 0;
   position: relative;
   box-sizing: border-box;
 	
 }
-.select-dropdown {
+.backgroundSettings .select-dropdown {
   position: relative;
   background: rgba(170,170,170,0.4);
   border: 1px white solid;
   padding: 2px 2px 2px 2px;
   border-radius: 4px;
 }
-.select-dropdown select {
+.backgroundSettings .select-dropdown select {
   font-size: 1rem;
   font-weight: normal;
   color: white;
@@ -212,20 +202,20 @@ html {
     -moz-appearance: none;
   appearance: none;
 }
-.select-dropdown select option {
+.backgroundSettings .select-dropdown select option {
   color: white;
   background: rgb(120,116,172);
 }
 
-.select-dropdown:hover {
+.backgroundSettings .select-dropdown:hover {
   box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
 }
-.select-dropdown select:active, .select-dropdown select:focus {
+.backgroundSettings .select-dropdown select:active, .select-dropdown select:focus {
   outline: none;
   box-shadow: none;
 }
-.select-dropdown:after {
+.backgroundSettings .select-dropdown:after {
   content: "";
   position: absolute;
   top: 50%;
