@@ -50,5 +50,12 @@
       "hasPremiumName": false,
       "clan": "",
       "badge": "gatoCC"
+    },
+    "user8": {
+      "accountName": "MrHawk88YT",
+      "hasPremiumName": true,
+      "premiumName": "Hawk",
+      "clan": "[Mage]",
+      "badge": "gatoCC"
     }
 }
