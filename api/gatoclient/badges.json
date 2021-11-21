@@ -2,7 +2,7 @@
     "user0": {
       "accountName": "creepycats",
       "hasPremiumName": true,
-      "premiumName": "Gato",
+      "premiumName": "GatoDev",
       "clan": "[.MAP]",
       "badge": "gatoDeveloper"
     },
@@ -56,6 +56,13 @@
       "hasPremiumName": true,
       "premiumName": "Hawk",
       "clan": "[Mage]",
+      "badge": "gatoCC"
+    },
+    "user9": {
+      "accountName": "Rice_Factory",
+      "hasPremiumName": true,
+      "premiumName": "Not_Kiwi",
+      "clan": "[KSC]",
       "badge": "gatoCC"
     }
 }
