@@ -100,5 +100,18 @@
       "hasPremiumName": false,
       "clan": "[MsaL]",
       "badge": "gatoCC"
+    },
+    "user16": {
+      "accountName": "Soultaken",
+      "hasPremiumName": false,
+      "clan": "[PA.]",
+      "badge": "gatoCC"
+    },
+    "user17": {
+      "accountName": "NEUTRONSTORM",
+      "hasPremiumName": true,
+      "premiumName": "egg",
+      "clan": "[Mage]",
+      "badge": "gatoCC"
     }
 }
