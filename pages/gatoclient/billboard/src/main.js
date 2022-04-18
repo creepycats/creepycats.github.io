@@ -10,7 +10,7 @@ const imagePreview = document.getElementById('imagePreview');
 var canvasElement;
 
 // APIs
-var bbapikey = `6523526425538c3460446952970522302a2ee526b9721507202618039548400313786624`;
+var bbapikey = `64695297052114f47865235264251c9a85dc048f707147031378662408fae39721507202`;
 bbapikey = bbapikey.replace('6523526425', '');
 bbapikey = bbapikey.replace('0313786624', '');
 bbapikey = bbapikey.replace('4695297052', '');
