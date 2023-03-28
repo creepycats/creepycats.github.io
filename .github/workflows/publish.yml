@@ -13,6 +13,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build the hello-docker Docker image
         run: |
-             docker build . --tag ghcr.io/creepycats/chrome-node17:latest
+             docker build ./docker --tag ghcr.io/creepycats/chrome-node17:latest
              docker run ghcr.io/creepycats/chrome-node17:latest
              docker push ghcr.io/creepycats/chrome-node17:latest
